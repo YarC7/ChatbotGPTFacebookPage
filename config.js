@@ -1,12 +1,12 @@
 const NodeCache = require("node-cache")
 
 const config = {
-    pageToken: '', // Đưa token của fanpage của bạn vô đây.
+    pageToken: 'EAAM6lFgMSqcBADK7MvSMi5iRM34xITh34nQ02fvUIZBT0wFCFhShDG0lmUvGEy0vkGN7c6ZClmol6dywokzqshZCm900qJSrfn9ST6OZCfzEseHQjXcZCZBvWoqyLMF7ZAamVOowWn8xIZCAUldWFM3iGvT3BERIzgZBRTfnhHWJrWyiTFZCL2vLHnSBw63bTZBKm8ZD', // Đưa token của fanpage của bạn vô đây.
     appSecret: '', // Cái này có thể có hoặc không, nếu có thì nó càng bảo mật.
-    verifyToken: '', // Nhập cái gì vô đây cũng được nhưng nhớ copy vào Verify Token ở mục Webhooks.
+    verifyToken: 'prrrrrrr', // Nhập cái gì vô đây cũng được nhưng nhớ copy vào Verify Token ở mục Webhooks.
     openai: {
-        model: '', // Model ChatGPT (gpt-3-turbo, gpt-3, gpt-4)
-        token: '', // API Token của ChatGPT
+        model: 'gpt-3.5-turbo', // Model ChatGPT (gpt-3-turbo, gpt-3, gpt-4)
+        token: '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', // API Token của ChatGPT
         max_tokens: 2048 // Bạn có thể thay đổi theo bạn muốn.
     },
     mode: 'CHAT', // bạn có thể chỉnh thành IMAGE để bot tạo ảnh nhé. 
